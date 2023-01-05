@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Guilherme Pizi</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/logo.png"
+    />
+    <!-- Navegação -->
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <!--Página Inícial -->
+    <link rel="stylesheet" href="./assets/css/pagina-inicial.css" />
+    <!--Sobre Mim -->
+    <link rel="stylesheet" href="./assets/css/sobre-mim.css" />
+    
+  </head>
+
+  <body  onload="typeWriter(fName);">
+    <div>
+    <header>
+        <input
+        id="close-menu"
+        class="close-menu"
+        type="checkbox"
+        aria-label="close-menu"
+        role="button"
+      />
+      <label
+        class="close-menu-label"
+        for="close-menu"
+        title="close menu"
+      ></label>
+      <div class="barra">
+        <div class="menu-centro">
+          <div class="barra-conteiner centralizador">
+            <div class="logo esquerda">
+              <a href="index.html"
+                ><img src="./assets/img/logo.png" alt="logo"
+              /></a>
+            </div>
+            <nav class="direita">
+              <ul onclick="getElementById('close-menu').checked=false;">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- menu -->
+
+    </header>
+    
+    <section id="inicio">
+        <div class="altura-ajuste">
+          <div class="inicio centralizador">
+            <div class="ajustador organizador">
+              <div class="apresentacao">
+                <p class="descricao">
+                  Oi, eu sou <br />
+                  <span style="display: inline" class="meu-nome"
+                    >Guilherme Pizi.</span
+                  >
+                  <br />
+                  <!-- Desenvolvedor Full Stack -->
+                  Desenvolvedor Web Full-stack
+                </p>
+                <br />
+                <div class="linkedin">
+                  <a
+                    href="https://www.linkedin.com/in/guilherme-faria-pizi/"
+                    target="_blank"
+                    class="link"
+                    >Linkedin</a>
+                </div>
+              </div>
+                <div class="desenho">
+                    <img
+                      class="desenho2"
+                      src="./assets/img/gp-desenho.png"
+                      
+                    />
+                  
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    </section>
+      <!-- primeira tela -->
+
+      <!-- sobre mim -->
+      <section id="sobre-mim">
+        <div class="centralizador">
+          <div class="ajustador-2">
+            <div class="avatar">
+              <img
+                class="desenho-bg"
+                src="./assets/img/avatar.jpeg"
+                alt="avatar"
+              />
+            </div>
+            <div class="sobre-mim">
+              <h2>Sobre mim</h2>
+              <br />
+              <p>
+                Meu nome é Guilherme Pizi, sou curioso e apaixonado por tecnologia.  
+                Desde minha adolescência consertei o hardware e software dos meus computadores o que me levou a escolher a área da tecnologia como profissão. Além dessa paixão tenho outros hobies como ler sobre assuntos diversos, atualmente estou lendo One Piece que tem sido meu companheiro por muitos anos e pelo visto vai me acompanhar por mais alguns! E claro que não posso deixar de lado meuj outro grande hobie que é jogar video game 
+            </p>
+              <br />
+              <p>
+                Atualmente estou cursando Gestão de Tecnologia da Informação e como aprofundamento estudo Java como Back-end e também estou fazendo um curso para me tornar um desenvolvedor Full-stack, onde estou aprendendo React, Javascript, HTML e CSS .
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sobre mim -->
+
+      <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/maquina_escrever.js"></script>
+    </div>            
+    </body>
+</html>
