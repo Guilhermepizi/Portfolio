@@ -1,20 +1,20 @@
-#habilidades {
-    background: linear-gradient(127.5deg, #3c3b3f 51.04%, #080153 51.05%);
-    height: 120vh;
+#hobbies {
+    background: linear-gradient(50.13deg, #080153 51.04%, #3c3b3f 51.05%);;
+    height: 150vh;
     display: flex;
     align-items: center;
 }
 
-.habilidades-pd {
+.hobbie-pd {
     padding-top: 93px;
 }
 
-.habilidades-pd h2 { 
+.hobbie-pd h2 { 
     text-align: center;
     padding-bottom: 70px;
 }
 
-.skills-descricao {
+.hobbie-descricao2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -22,7 +22,7 @@
     padding-bottom: 70px;
 }
 
-.conteiner-skills {
+.conteiner-hobbie {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -30,9 +30,9 @@
     max-width: 55%;
 }
 
-.skill-box {
-    height: 98px;
-    width: 98px;
+.hobbie-box {
+    height: 140px;
+    width: 140px;
     background-color: #C4C4C4;
     border-radius: 20px;
     display: flex;
@@ -44,30 +44,37 @@
     transition: ease 0.3s;
 }
 
-.skill-box:hover {
+.hobbie-box:hover {
     background-color: white;
     transform: scale(1.05);
 }
 
-.conteiner-descricao {
+.conteiner-descricao2 {
     color: white;
     font-family: 'Quando', serif;
     font-size: 20px;
     max-width: 40%;
 }
 
+.hobbie-img{
+    opacity: 0;
+}
+.hobbie-img:hover{
+    opacity: 100;
+}
+
 @media (max-width:1200px) {
 
-    .conteiner-descricao {
+    .conteiner-descricao2 {
         height: 260px;
     }
 
-    #habilidades {
+    #hobbies {
         display: flex;
         justify-content: center;
     }
 
-    .skills-descricao {
+    .hobbie-descricao {
         display: flex;
         flex-direction: column-reverse;
         /* width: 535px; */
@@ -77,13 +84,13 @@
         align-items: center;
     }
 
-    .skills-descricao p {
+    .hobbie-descricao p {
         text-align: center;
     }
 
 }
 @media (max-width:950px) {
-    .conteiner-skills {
+    .conteiner-hobbie {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -91,77 +98,50 @@
         max-width: 300px;
     }
 
-    .conteiner-descricao {
+    .conteiner-descricao2 {
         max-width: 300px;
     }
 
 }
 
-.skill-box .icones-habilidades {
+.hobbie-box .icones-hobbie {
     transition: ease-in-out 0.3s;
 }
 
-.skill-box:hover .icones-habilidades {
+.hobbie-box:hover .icones-hobbie {
     opacity: 0;
 }
 
-.skill1{
-    background-image: url(../img/html-5\ original.png);
+.hobbie1{
+    background-image: url(../img/playstation.png);
     background-position: center;
 }
 
-.skill2 {
-    background-image: url(../img/css-original.png);
+.hobbie2 {
+    background-image: url(../img/filme.png);
 }
 
-.skill3 {
-    background-image: url(../img/java-script\ original.png);
+.hobbie3 {
+    background-image: url(../img/series.png);
     background-position: center;
 }
 
-.skill4 {
-    background-image: url(../img/java\ original.png);
+.hobbie4 {
+    background-image: url(../img/anime.png);
 }
 
-.skill5 {
-    background-image: url(../img/c-sharp\ original.png);
+.hobbie5 {
+    background-image: url(../img/comic.png);
 }
 
-.skill6 {
-    background-image: url(../img/java2.svg);
+.hobbie6 {
+    background-image: url(../img/livros.png);
     
 }
 
-.skill7 {
-    background-image: url(../img/sql\ original.png);
+.hobbie7 {
+    background-image: url(../img/sports.png);
 }
-
-.skill8 {
-    background-image: url(../img/react\ original.png);
-}
-
-.skill9 {
-    background-image: url(../img/git\ original.png);
-}
-
-
-.skill10 {
-    background-image: url(../img/github\ original.png);
-}
-
-.skill11 {
-    background-image: url(../img/bootstrap2.svg);
-}
-
-.skill12 {
-    background-image: url(../img/typescript2.svg);
-}
-
-.skill13 {
-    background-image: url(../img/nodejs\ original.png);
-    background-position: center;
-}
-
 #fundo {
     fill: red;
 }
