@@ -1,5 +1,8 @@
 #projetos {
-    background: linear-gradient(56.53deg, #3c3b3f 51.04%, #080153 51.05%);
+    height: 120vh;
+    display: flex;
+    align-items: center; 
+    
 }
 
 .projetos {
@@ -98,8 +101,23 @@ button:hover {
 
 }
 @media (max-width:950px) {
+
+    .projetos h2 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
     .pro {
         max-width: 300px;
+    }
+
+    button {
+        padding: 10px 100px;
+        border-radius: 25px;
+        cursor: pointer;
+        color: white;
+        background-color: #1b1843;
+        border: none;
+        transition: ease-in-out 0.3s;
     }
 
 }

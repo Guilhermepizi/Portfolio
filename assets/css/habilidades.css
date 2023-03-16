@@ -1,5 +1,5 @@
 #habilidades {
-    background: linear-gradient(127.5deg, #3c3b3f 51.04%, #080153 51.05%);
+    
     height: 120vh;
     display: flex;
     align-items: center;
@@ -83,6 +83,12 @@
 
 }
 @media (max-width:950px) {
+
+    .habilidades-pd h2 {
+        padding-top: 800px; 
+        text-align: center;
+        padding-bottom: 50px;
+    }
     .conteiner-skills {
         display: flex;
         justify-content: center;

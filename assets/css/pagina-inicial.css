@@ -32,7 +32,6 @@ img {
 }
 /* criando início */
 #inicio {
-    background: linear-gradient(50.13deg, #3c3b3f 51.04%, #080153 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -134,7 +133,6 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #080153;
         height: auto;
     }
 
@@ -158,6 +156,7 @@ img {
     }
 
     .linkedin {
+        background-color: #1b1843;
         width: 479px;
         margin-top: 15px;
     }
@@ -209,8 +208,12 @@ img {
         font-size: 30px;
     }
 
-    .esquerda, .direita {
+    .esquerda {
         margin: 0;
+    }
+    .direita{
+        margin-top: 40px;
+        margin-right: 75px;
     }
 
 }

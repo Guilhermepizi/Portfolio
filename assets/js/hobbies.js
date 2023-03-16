@@ -8,7 +8,7 @@ const sobreHobbie = [
                     '<p>HQs e Mangás</p> <br> <p>HQs comecei a ler a Turma da Monica, passando pelos heróis da marvel e ultimamente estou lendo o interminavel One Piece, que valem todos esses anos de espera por um fim.</p> <br>',
                     '<p>Livros</p> <br> <p>Livros comecei a ler desde pequeno também as aventuras da coleção Vaga-Lume. Gosto de livros com uma boa história de ficção, mas ultimamente estou mudando essa linha. </p> <br>',
                     '<p>Esportes</p> <br> <p>Sempre gostei de praticar esportes, o tênis foi onde comecei e até participei de campeonatos. Mas por conta dos meus estudos tive que parar. O Bodyboard eu praticava basicamente nas férias, quando descia para a práia. Já a corrida é o que eu pratico hoje em dia para não ficar parado. </p> <br>',
-                    ]
+                    ]     
 const dataInicioHobbie = [
                     (new Date(2021, 10, 1)).getTime(), // 0
                     (new Date(2021, 10, 1)).getTime(), // 1

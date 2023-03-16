@@ -1,5 +1,4 @@
 #hobbies {
-    background: linear-gradient(50.13deg, #080153 51.04%, #3c3b3f 51.05%);;
     height: 150vh;
     display: flex;
     align-items: center;
@@ -90,6 +89,12 @@
 
 }
 @media (max-width:950px) {
+    
+    .hobbie-pd h2 { 
+        padding-top: 2000px;
+        text-align: center;
+        padding-bottom: 70px;
+    }
     .conteiner-hobbie {
         display: flex;
         justify-content: center;
