@@ -1,4 +1,4 @@
-const skills = document.querySelectorAll('.skill-box');
+const skill = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('.texto-descricao');
 const sobreSkill = [
                     '<p>HTML</p> <br> <p>HTML é uma abreviação de Hyper Text Markup Language, ou em português, Linguagem de Marcação de Hipertexto. Em essência trata-se de um conjunto de regras, códigos e marcadores (ou tags) utilizados para definir principalmente como o conteúdo da página será apresentado. Esses marcadores dizem se uma frase deve ser exibida em negrito e centralizada, o tamanho e cores da fonte, a localização de uma imagem, um links e muito mais.</p> <br>',
@@ -25,7 +25,7 @@ const dataInicio = [
                     ]
 const dataHoje = (new Date()).getTime();
 
-skills.forEach(  (elemento, index) => {
+skill.forEach(  (elemento, index) => {
     let index1 = index;
     let elemento1 = elemento;
     elemento.addEventListener('mouseover', (evento) => {
@@ -35,7 +35,7 @@ skills.forEach(  (elemento, index) => {
         descricao.innerHTML = `<p>${sobreSkill[index1]} </p>` ;
     } )
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        descricao.innerHTML = '/* Passe o mouse por cima de alguma habilidade para ler a descrição */';
+        descricao.innerHTML = '/* Passe o mouse ou toque em cima de alguma habilidade para ler a descrição */';
     } )
 } );
 
