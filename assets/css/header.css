@@ -30,11 +30,6 @@ body{
 
 
 @media (max-width:950px) {
-    body{
-        background-image: url(../img/background.png);
-        background-repeat: repeat;
-        background-size: 100%;
-    }
     .logo {
         margin-top: 25px;
         max-width: 75%;

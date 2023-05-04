@@ -56,6 +56,13 @@
     max-width: 40%;
 }
 
+.skill-img{
+    opacity: 0;
+}
+.skill-img:hover{
+    opacity: 100;
+}
+
 @media (max-width:1200px) {
 
     .conteiner-descricao {
