@@ -14,7 +14,7 @@
     padding-bottom: 70px;
 }
 
-.skills-descricao {
+.skill-descricao {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -22,7 +22,7 @@
     padding-bottom: 70px;
 }
 
-.conteiner-skills {
+.conteiner-skill {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -74,7 +74,7 @@
         justify-content: center;
     }
 
-    .skills-descricao {
+    .skill-descricao {
         display: flex;
         flex-direction: column-reverse;
         /* width: 535px; */
@@ -84,7 +84,7 @@
         align-items: center;
     }
 
-    .skills-descricao p {
+    .skill-descricao p {
         text-align: center;
     }
 
@@ -96,7 +96,7 @@
         text-align: center;
         padding-bottom: 50px;
     }
-    .conteiner-skills {
+    .conteiner-skill {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;

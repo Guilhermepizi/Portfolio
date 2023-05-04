@@ -31,7 +31,7 @@ hobbie.forEach(  (elemento, index) => {
         
     } )
     elemento.addEventListener('mouseout', (evento, elemento2,) => {
-        descricao2.innerHTML = '/* Passe o mouse por cima de algum hobbie para saber mais */';
+        descricao2.innerHTML = '/* Passe o mouse ou toque em cima de algum hobbie para saber mais */';
     } )
 } );
 
